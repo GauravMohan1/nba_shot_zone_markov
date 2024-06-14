@@ -1,7 +1,6 @@
 from collections import defaultdict
 import numpy as np
 import pandas as pd
-import pickle
 
 # Function to simulate a single possession with EPV
 def simulate_possession_with_epv(initial_state, transition_matrix, nba_df, poss):
@@ -38,14 +37,7 @@ def simulate_possession_with_epv(initial_state, transition_matrix, nba_df, poss)
 
 
 # Function to simulate games between two teams
-def simulate_games(teamA, teamB):
-    filename = 'team_transition_matrices.pkl'
-
-    # Load the data from the pickle file
-    with open(filename, 'rb') as file:
-        team_transition_matrices = pickle.load(file)
-
-    nba_df = pd.read_csv('nba_pbp_states.csv')
+def simulate_games(teamA, teamB, team_transition_matrices, nba_df):
 
     wins = defaultdict(int)
     scores = defaultdict(list)
