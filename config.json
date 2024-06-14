@@ -1,5 +1,5 @@
 {
-    "Atlanta Hawks": [
+    "ATL": [
         {
             "Restricted Area": "66.7"
         },
@@ -22,7 +22,7 @@
             "Above the Break 3": "34.9"
         }
     ],
-    "Boston Celtics": [
+    "BOS": [
         {
             "Restricted Area": "68.9"
         },
@@ -45,7 +45,7 @@
             "Above the Break 3": "36.9"
         }
     ],
-    "Brooklyn Nets": [
+    "BKN": [
         {
             "Restricted Area": "66.7"
         },
@@ -68,7 +68,7 @@
             "Above the Break 3": "37.3"
         }
     ],
-    "Charlotte Hornets": [
+    "CHA": [
         {
             "Restricted Area": "64.5"
         },
@@ -91,7 +91,7 @@
             "Above the Break 3": "32.5"
         }
     ],
-    "Chicago Bulls": [
+    "CHI": [
         {
             "Restricted Area": "66.8"
         },
@@ -114,7 +114,7 @@
             "Above the Break 3": "34.9"
         }
     ],
-    "Cleveland Cavaliers": [
+    "CLE": [
         {
             "Restricted Area": "68.6"
         },
@@ -137,7 +137,7 @@
             "Above the Break 3": "36.9"
         }
     ],
-    "Dallas Mavericks": [
+    "DAL": [
         {
             "Restricted Area": "67.6"
         },
@@ -160,7 +160,7 @@
             "Above the Break 3": "36.3"
         }
     ],
-    "Denver Nuggets": [
+    "DEN": [
         {
             "Restricted Area": "70.8"
         },
@@ -183,7 +183,7 @@
             "Above the Break 3": "37.3"
         }
     ],
-    "Detroit Pistons": [
+    "DET": [
         {
             "Restricted Area": "64.3"
         },
@@ -206,7 +206,7 @@
             "Above the Break 3": "34.5"
         }
     ],
-    "Golden State Warriors": [
+    "GSW": [
         {
             "Restricted Area": "70.0"
         },
@@ -229,7 +229,7 @@
             "Above the Break 3": "38.5"
         }
     ],
-    "Houston Rockets": [
+    "HOU": [
         {
             "Restricted Area": "64.4"
         },
@@ -252,7 +252,7 @@
             "Above the Break 3": "32.1"
         }
     ],
-    "Indiana Pacers": [
+    "IND": [
         {
             "Restricted Area": "64.1"
         },
@@ -275,7 +275,7 @@
             "Above the Break 3": "27.9"
         }
     ],
-    "LA Clippers": [
+    "LAC": [
         {
             "Restricted Area": "64.1"
         },
@@ -298,7 +298,7 @@
             "Above the Break 3": "37.7"
         }
     ],
-    "Los Angeles Lakers": [
+    "LAL": [
         {
             "Restricted Area": "68.6"
         },
@@ -321,7 +321,7 @@
             "Above the Break 3": "30.0"
         }
     ],
-    "Memphis Grizzlies": [
+    "MEM": [
         {
             "Restricted Area": "64.2"
         },
@@ -344,7 +344,7 @@
             "Above the Break 3": "34.6"
         }
     ],
-    "Miami Heat": [
+    "MIA": [
         {
             "Restricted Area": "62.7"
         },
@@ -367,7 +367,7 @@
             "Above the Break 3": "35.6"
         }
     ],
-    "Milwaukee Bucks": [
+    "MIL": [
         {
             "Restricted Area": "66.4"
         },
@@ -390,7 +390,7 @@
             "Above the Break 3": "35.5"
         }
     ],
-    "Minnesota Timberwolves": [
+    "MIN": [
         {
             "Restricted Area": "68.1"
         },
@@ -413,7 +413,7 @@
             "Above the Break 3": "36.0"
         }
     ],
-    "New Orleans Pelicans": [
+    "NOP": [
         {
             "Restricted Area": "66.6"
         },
@@ -436,7 +436,7 @@
             "Above the Break 3": "36.5"
         }
     ],
-    "New York Knicks": [
+    "NYK": [
         {
             "Restricted Area": "65.1"
         },
@@ -459,7 +459,7 @@
             "Above the Break 3": "34.4"
         }
     ],
-    "Oklahoma City Thunder": [
+    "OKC": [
         {
             "Restricted Area": "62.5"
         },
@@ -482,7 +482,7 @@
             "Above the Break 3": "34.7"
         }
     ],
-    "Orlando Magic": [
+    "ORL": [
         {
             "Restricted Area": "66.9"
         },
@@ -505,7 +505,7 @@
             "Above the Break 3": "33.0"
         }
     ],
-    "Philadelphia 76ers": [
+    "PHI": [
         {
             "Restricted Area": "65.3"
         },
@@ -528,7 +528,7 @@
             "Above the Break 3": "38.5"
         }
     ],
-    "Phoenix Suns": [
+    "PHX": [
         {
             "Restricted Area": "64.2"
         },
@@ -551,7 +551,7 @@
             "Above the Break 3": "37.1"
         }
     ],
-    "Portland Trail Blazers": [
+    "POR": [
         {
             "Restricted Area": "65.0"
         },
@@ -574,7 +574,7 @@
             "Above the Break 3": "36.8"
         }
     ],
-    "Sacramento Kings": [
+    "SAC": [
         {
             "Restricted Area": "66.0"
         },
@@ -597,7 +597,7 @@
             "Above the Break 3": "34.1"
         }
     ],
-    "San Antonio Spurs": [
+    "SAS": [
         {
             "Restricted Area": "64.6"
         },
@@ -620,7 +620,7 @@
             "Above the Break 3": "34.0"
         }
     ],
-    "Toronto Raptors": [
+    "TOR": [
         {
             "Restricted Area": "67.2"
         },
@@ -643,7 +643,7 @@
             "Above the Break 3": "33.7"
         }
     ],
-    "Utah Jazz": [
+    "UTA": [
         {
             "Restricted Area": "67.2"
         },
@@ -666,7 +666,7 @@
             "Above the Break 3": "32.7"
         }
     ],
-    "Washington Wizards": [
+    "WAS": [
         {
             "Restricted Area": "72.0"
         },
