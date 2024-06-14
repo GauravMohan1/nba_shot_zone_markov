@@ -33,8 +33,19 @@ def main():
     team_B = st.selectbox('Select Team B', nba_teams)
 
     if st.button('Simulate'):
-        # Run simulation
-        scores, wins, total_scores = simulate_games(team_A, team_B, team_transition_matrices, nba_df)
+        # Create a progress bar
+        progress_bar = st.progress(0)
+        progress_text = st.empty()
+
+        # Define a callback function to update the progress bar and text
+        def progress_callback(current, total):
+            progress = current / total
+            progress_bar.progress(progress)
+            progress_text.text(f'{progress * 100:.2f}% complete')
+
+        #Run Simulation 
+        scores, wins, total_scores = simulate_games(team_A, team_B, team_transition_matrices, nba_df, progress_callback)
+
 
         # Generate graphs
         # Plot line graph for scores
