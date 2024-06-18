@@ -37,11 +37,11 @@ def simulate_possession_with_epv(initial_state, transition_matrix, nba_df, poss)
 
 
 # Function to simulate games between two teams
-def simulate_games(teamA, teamB, team_transition_matrices, nba_df, progress_callback=None):
+def simulate_games(teamA, teamB, team_transition_matrices, nba_df, N, num_pos, progress_callback=None):
     wins = defaultdict(int)
     scores = defaultdict(list)
     total_scores = []
-    N = 1000
+   
     for i in range(N):
         # Placeholder for team A and team B input
         poss = np.random.choice([teamA, teamB])
@@ -49,7 +49,7 @@ def simulate_games(teamA, teamB, team_transition_matrices, nba_df, progress_call
         total_epv_across_possessions = 0
         state = 'start of period'
 
-        for _ in range(100):
+        for _ in range(num_pos):
             transition_matrix = team_transition_matrices[poss]
             next_state, end_epv = simulate_possession_with_epv(state, transition_matrix, nba_df, poss)
             track[poss] += end_epv
@@ -73,6 +73,6 @@ def simulate_games(teamA, teamB, team_transition_matrices, nba_df, progress_call
     
         # Update progress bar
         if progress_callback:
-            progress_callback(i + 1, N)
+            progress_callback(i + 1, N, scores, wins)
     
-    return scores, wins, total_scores
+    return scores, total_scores
