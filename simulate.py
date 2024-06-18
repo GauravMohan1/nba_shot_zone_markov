@@ -20,6 +20,7 @@ def simulate_possession_with_epv(initial_state, transition_matrix, nba_df, poss)
             if shot_zone_counts.empty:
                 event_epv = 0
             else:
+                # determine the shot zone based on shot zone distribution for a team
                 chosen_shot_zone = np.random.choice(shot_zone_counts.index, p=shot_zone_counts.values)
                 event_epv = filtered_df.loc[filtered_df['shot_zone'] == chosen_shot_zone, 'EPV'].mean()
         else:
